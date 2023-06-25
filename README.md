@@ -182,21 +182,6 @@ footer {
     <div class="text-article">
   <h1><span style="font-family:'Times New Roman', Times, serif; color:black">ARTICLE 1</span></h1>
       <h2>Methodology, tools and data sources</h2>
-    <p align="justify">ADD pharagraph
-            <h2>The challenges</h2>
-<p align="justify">ADD pharagraph
-</p>
-    </div> 
-      
-  </div>
-
-<br><br>
-
-
-      <div class="article">
-    <div class="article-text">
-  <h1><span style="font-family:'Times New Roman', Times, serif; color:black">ARTICLE 2</span></h1>
-<h2>Methodology, tools and data sources</h2>
     <p align="justify"> The exploration of albums distribution formats began with our analysis of the corpus Polifonia, which 
         provided valuable insights into the diverse formats used to distribute albums. One trend that particularly caught our 
         attention when looking into the keywords “CD” and “vinyl” was their juxtaposition / association / combination to words 
@@ -211,8 +196,7 @@ footer {
         extracted from Wikidata into meaningful and interactive charts. These visuals, such as bar charts and maps, allow readers 
         to easily comprehend and compare key trends. Moreover, they enhance the storytelling aspect, making the data more engaging and memorable.        
       </p>
-
-      <h2>The challenges</h2>
+            <h2>The challenges</h2>
 <p align="justify">Particularly in the earlier stages of data collection, most challenges encountered stemmed from our initial 
     unfamiliarity with the tools, and from our uncertainty about what kind of information was available to us and how it was organised 
     within the Wikidata knowledge graph. We had to come to terms with entities lacking crucial information; in some instances, the data 
@@ -225,7 +209,23 @@ footer {
     some years appeared more than once on the x-axis, but the issue at hand was solved through a BIND clause (BIND(YEAR(?date) AS ?label)). 
     Broadly speaking, the more time we spent familiarising ourselves with our tools, the easier it got to face all manner of challenges, 
     and to create an engaging data story.
+      </p>
+    </div> 
+      
+  </div>
 
+<br><br>
+
+
+      <div class="article">
+    <div class="article-text">
+  <h1><span style="font-family:'Times New Roman', Times, serif; color:black">ARTICLE 2</span></h1>
+<h2>Methodology, tools and data sources</h2>
+    <p align="justify">    
+      </p>
+
+      <h2>The challenges</h2>
+<p align="justify">
       </p>
     </div> 
     <div class="article-image">
