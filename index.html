@@ -133,7 +133,7 @@ body {
 }
 
 .container img {
-    opacity: 1;
+    opacity: 0.8;
 }
 
 .centered {
