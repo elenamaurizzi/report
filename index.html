@@ -37,10 +37,10 @@ body {
 
 <div class="topnav">
   <a href="https://elenamaurizzi.github.io/prova/" href="#home">HOME</a>
-  <a class="https://elenamaurizzi.github.io/articolo1prova/">ARTICLE 1</a>
+  <a href="https://elenamaurizzi.github.io/articolo1prova/">ARTICLE 1</a>
   <a href="https://elenamaurizzi.github.io/article2prova/">ARTICLE 2</a>
   <a href="#ARTICLE 3 LINK">ARTICLE 3</a>
-  <a href="active">OUR REPORTS</a>
+  <a class="active">OUR REPORTS</a>
 </div>
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
