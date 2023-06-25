@@ -166,7 +166,7 @@ footer {
 
 
 <div class="container">
-  <img src="header.jpeg" alt="Reports" style="width:100%;">
+  <img src="header.jpg" alt="Reports" style="width:100%;">
   
   <div class="centered"><h1 align="centered"><span style="font-family: Georgia, serif;">OUR REPORTS</span></h1></div>
 
