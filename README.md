@@ -90,8 +90,8 @@ body {
 
     .article-image {
       flex: 1;
-      margin-left: 180px;
-      margin-right: 0px;
+      margin-left: 160px;
+      margin-right: -60px;
     }
 
     .text-article {
