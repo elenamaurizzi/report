@@ -90,20 +90,20 @@ body {
 
     .article-image {
       flex: 1;
-      margin-left: 150px;
+      margin-left: 180px;
       margin-right: 0px;
     }
 
     .text-article {
         flex: 1;
         text-align: center;
-        margin-right: 150px;
+        margin-right: 80px;;
     }
 
     .image-article {
       flex: 1;
       margin-left: 40px;
-      margin-right: 40px;
+      margin-right: 0px;
     }
 
     .section {
@@ -177,12 +177,12 @@ footer {
   
    <div class="article">
       <div class="image-article">
-      <img src="ADD IMAGE" alt="Article Image" width="500" height="800"><br><br><br><br>
+      <img src="CD.jpg" alt="Article Image" width="500" height="800"><br><br><br><br>
          </div>
     <div class="text-article">
   <h1><span style="font-family:'Times New Roman', Times, serif; color:black">ARTICLE 1</span></h1>
       <h2>Methodology, tools and data sources</h2>
-    <p align="justify"> The exploration of albums distribution formats began with our analysis of the corpus Polifonia, which 
+      <p align="justify"> The exploration of albums distribution formats began with our analysis of the corpus Polifonia, which 
         provided valuable insights into the diverse formats used to distribute albums. One trend that particularly caught our 
         attention when looking into the keywords “CD” and “vinyl” was their juxtaposition / association / combination to words 
         such as “revival” or “era”, that prompted us to delve deeper into this phenomenon. To narrow down our research focus, 
@@ -197,19 +197,19 @@ footer {
         to easily comprehend and compare key trends. Moreover, they enhance the storytelling aspect, making the data more engaging and memorable.        
       </p>
             <h2>The challenges</h2>
-<p align="justify">Particularly in the earlier stages of data collection, most challenges encountered stemmed from our initial 
-    unfamiliarity with the tools, and from our uncertainty about what kind of information was available to us and how it was organised 
-    within the Wikidata knowledge graph. We had to come to terms with entities lacking crucial information; in some instances, the data 
-    retrieved was either not up-to-date or even unreliable (we stumbled upon an album that was allegedly released in 2171!). Faced with 
-    these kinds of issues, we had to take – on more than one occasion – a step back to readjust our course of action, modifying the plans 
-    for our data story. Be that as it may, some good actually came from tackling the above-mentioned challenges: in the long run, they 
-    pushed us to detach ourselves from the query models used in class and to adopt a creative problem-solving mindset, which turned out 
-    to be pivotal in the process of query writing. For instance, we encountered an unexpected problem whilst writing the query for the 
-    line chart showcasing the number of albums released on CD format/vinyl per year: even though we used the SELECT DISTINCT statement, 
-    some years appeared more than once on the x-axis, but the issue at hand was solved through a BIND clause (BIND(YEAR(?date) AS ?label)). 
-    Broadly speaking, the more time we spent familiarising ourselves with our tools, the easier it got to face all manner of challenges, 
-    and to create an engaging data story.
-      </p>
+            <p align="justify">Particularly in the earlier stages of data collection, most challenges encountered stemmed from our initial 
+                unfamiliarity with the tools, and from our uncertainty about what kind of information was available to us and how it was organised 
+                within the Wikidata knowledge graph. We had to come to terms with entities lacking crucial information; in some instances, the data 
+                retrieved was either not up-to-date or even unreliable (we stumbled upon an album that was allegedly released in 2171!). Faced with 
+                these kinds of issues, we had to take – on more than one occasion – a step back to readjust our course of action, modifying the plans 
+                for our data story. Be that as it may, some good actually came from tackling the above-mentioned challenges: in the long run, they 
+                pushed us to detach ourselves from the query models used in class and to adopt a creative problem-solving mindset, which turned out 
+                to be pivotal in the process of query writing. For instance, we encountered an unexpected problem whilst writing the query for the 
+                line chart showcasing the number of albums released on CD format/vinyl per year: even though we used the SELECT DISTINCT statement, 
+                some years appeared more than once on the x-axis, but the issue at hand was solved through a BIND clause (BIND(YEAR(?date) AS ?label)). 
+                Broadly speaking, the more time we spent familiarising ourselves with our tools, the easier it got to face all manner of challenges, 
+                and to create an engaging data story.
+                  </p>
     </div> 
       
   </div>
@@ -221,7 +221,7 @@ footer {
     <div class="article-text">
   <h1><span style="font-family:'Times New Roman', Times, serif; color:black">ARTICLE 2</span></h1>
 <h2>Methodology, tools and data sources</h2>
-    <p align="justify">    
+    <p align="justify">         
       </p>
 
       <h2>The challenges</h2>
