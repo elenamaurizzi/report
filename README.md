@@ -221,10 +221,7 @@ footer {
     <div class="article-text">
   <h1><span style="font-family:'Times New Roman', Times, serif; color:black">Best female music artists</span></h1>
 <h2>Methodology, tools and data sources</h2>
-    <p align="justify">The starting point of our research was the Polifonia corpus. Initially, we explored the MusicBo module, but we did not find any information about modern female artists or even about female artists in general. Therefore, we selected “Wikipedia” as a module and we got interesting results by typing some keywords, namely “album”, “women” and “female”. In particular, we had different occurrences for “female album” and this guided us to the decision of the final topic of our research: the best female music artists. 
-For our research we decided to use the DBpedia Sparql Endpoint to explore the knowledge graph provided by DBpedia. After defining all the standard prefixes, such as rdf, rdfs and all those required by DBpedia ontology, we started to query over the knowledge graph using SPARQL language and a significant number of operators that were useful to constraint the values that we wanted to retrieve. In particular, we used: FILTER regex, ORDER BY, COUNT, OPTIONAL, DISTINCT, BIND, MINUS, LIMIT and GROUP BY.
-Moreover, for the definition of the prefixes and for the construction of the queries we explored the knowledge graph to see, for instance, with what type of queries were we dealing with and whether we got a resource, or a property or a value. 
-Finally, we put all the queries used on Melody platform and created our web-ready story that is made of several graphics (table, doughnut chart, bar chart etc.). These help to drive the understanding of the audience of the topic's research, allowing all viewers to visualize all data and information that we retrieved in the exploration of the aforementioned knowledge graph. 
+    <p align="justify">
 </p>
 
 <h2>The challenges</h2>
