@@ -230,12 +230,13 @@ Finally, we put all the queries used on Melody platform and created our web-read
 
       <h2>The challenges</h2>
 <p align="justify"> The first challenge we had to face was the display of the images on Melody, since we got the IRI of the resource from DBpedia but not the depiction itself. In the first place, we tried to change the property from dbo:thumbnail to foaf:depiction, but in this way, we could see the images but there were multiple for each resource. Therefore, we tried to get one picture of each resource by using the SAMPLE operator, but we still had some problems with duplicates. Eventually, we decided to use the dbo:thumbnail together with the operator BIND(REPLACE(str(A),””,) AS B), as suggested by the professor. Even though we managed to get the picture, we still had problems with one image, since it was not available on its DBpedia page anymore. For this reason, we decided to leave the picture out, using the MINUS operator, so as to have a more aesthetically pleasing table. 
-Then, another challenge we encountered was that, even if we used the operator DISTINCT, we got multiple results for each resource. So, to solve this problem, we used the operator GROUP BY. 
-
+Then, another challenge we encountered was that, even if we used the operator DISTINCT, we got multiple results for each resource. So, to solve this problem, we used the operator GROUP BY. Moreover, we cannot have links that work on Melody, because we see only their strings and not the functioning links. Even though we added “Label” to the variable, we did not get the expected result. 
+In general, sometimes Melody was not working properly, so we had to stop and wait until it worked again or we tried several times to upload the changes before getting the result we wanted. 
+In conclusion, despite all the challenges that we encountered, in the end we are satisfied with the outcome of the project. 
       </p>
     </div> 
     <div class="article-image">
-      <img src="ADD IMAGE" alt="Article Image" width="500" height="800"><br><br><br><br>
+      <img src="/cant.jpeg" alt="Article Image" width="500" height="800"><br><br><br><br>
           </div>  
   </div>
   
