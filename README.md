@@ -84,7 +84,7 @@ body {
 
     .article-text {
       flex: 1;
-      margin-left: 150px;
+      margin-left: 80px;
       text-align: center;
     }
 
@@ -102,7 +102,7 @@ body {
 
     .image-article {
       flex: 1;
-      margin-left: 40px;
+      margin-left: 80px;
       margin-right: 0px;
     }
 
