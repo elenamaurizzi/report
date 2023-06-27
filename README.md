@@ -243,12 +243,12 @@ In conclusion, despite all the challenges that we encountered, in the end we are
 <br><br><br>
      <div class="article">
       <div class="image-article">
-      <img src="ADD IMAGE" alt="Article Image" width="500" height="800"><br><br><br><br>
+      <img src="concert.jpg" alt="Article Image" width="500" height="800"><br><br><br><br>
           </div>
     <div class="text-article">
   <h1><span style="font-family:'Times New Roman', Times, serif; color:black">ARTICLE 3</span></h1>
    <h2>Methodology, tools and data sources</h2>
-    <p align="justify">ADD PHRAGRAPH
+    <p align="justify">The project initially started with the intention of utilizing the Polifonia module “Music Bo” to gather information. Upon realizing the limited information available through the Music Bo module, we decided to shift our focus to Wikipedia. This choice provided access to a wider range of data, thereby inspiring the project to proceed in a more fruitful direction. Subsequently, we initiated the process by collecting pertinent data from Wikidata, which served as the fundamental basis for our research and to extract relevant information related to the indie rock genre. Starting from a general point of view, we narrowed down our search to identify the most famous bands within the indie rock genre. To accomplish this, we scrutinized the queries that had been covered during our classes and began generating novel queries to address our inquiries. All the acquired data underwent a deep examination to detect noteworthy correlations and trends. Every time we formulated a new query, our aim was to execute it on MELODY platform, as to obtain a visual representation of our findings. The use of data visualization played a central role not just in presenting the project's discoveries but also in enabling us to examine deeper into comprehending the data. Consequently, MELODY facilitated our creation of tables, charts, and graphs, all aimed at showing the progression of indie rock music, particularly in the analysis of the musical contributions made by two iconic bands: Blur and Sonic Youth.
       </p>
 
       <h2>The challenges</h2>
