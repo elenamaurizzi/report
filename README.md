@@ -242,8 +242,6 @@ In conclusion, despite all the challenges that we encountered, in the end we are
   
 <br><br><br>
      <div class="article">
-      <div class="image-article">
-      <img src="concert.jpg" alt="Article Image" width="500" height="800"><br><br><br><br>
           </div>
     <div class="text-article">
   <h1><span style="font-family:'Times New Roman', Times, serif; color:black">ARTICLE 3</span></h1>
@@ -256,6 +254,9 @@ In conclusion, despite all the challenges that we encountered, in the end we are
       </p>
     </div> 
   </div>
+
+  <div class="image-article">
+      <img src="concert.jpg" alt="Article Image" width="500" height="800"><br><br><br><br>
   
 <br>
   
