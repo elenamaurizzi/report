@@ -61,7 +61,15 @@ body {
       margin: 0;
     }
 
-    h2 {
+   h2 {
+      color: #000000;
+      font-family: 'Times New Roman', Times, serif !important;
+      font-size: 36px !important;
+      margin: 0;
+    }
+
+  
+    h3 {
       color: #000000;
       font-family: 'Times New Roman', Times, serif !important;
       font-size: 22px !important;
@@ -179,8 +187,8 @@ footer {
       <img src="CD.jpg" alt="Article Image" width="500" height="800"><br><br><br><br>
          </div>
     <div class="text-article">
-  <h1><span style="font-family:'Times New Roman', Times, serif; color:black">Exploring album distribution formats: 2000-2020</span></h1>
-      <h2>Methodology, tools and data sources</h2>
+  <h2><span style="font-family:'Times New Roman', Times, serif; color:black">Exploring album distribution formats: 2000-2020</span></h2>
+      <h3>Methodology, tools and data sources</h3>
       <p align="justify"> Our analysis of the subject began with the exploration of the Polifonia corpus, which provided valuable insights into 
         the different formats used to distribute albums. Whilst searching for “CD” and “vinyl”, one trend in particular caught our attention: 
         the use of the above mentioned keywords in combination with “revival” or “era”. Precisely this prompted us to delve deeper into the matter. 
@@ -194,7 +202,7 @@ footer {
         an easy-to-read visual representation of complex and multifaceted trends. Moreover, by adding a storytelling element to our data story, 
         these data visualisation tools make the latter more engaging and memorable.        
       </p>
-            <h2>The challenges</h2>
+            <h3>The challenges</h3>
             <p align="justify">Particularly in the earlier stages of data collection, most challenges encountered stemmed from our initial 
                 unfamiliarity with the tools, and from our uncertainty about what kind of information was available to us and how it was organised 
                 within the Wikidata knowledge graph. We had to come to terms with entities lacking crucial information; in some instances, the data 
@@ -217,15 +225,15 @@ footer {
 
       <div class="article">
     <div class="article-text">
-  <h1><span style="font-family:'Times New Roman', Times, serif; color:black">Best female music artists</span></h1>
-<h2>Methodology, tools and data sources</h2>
+  <h2><span style="font-family:'Times New Roman', Times, serif; color:black">Best female music artists</span></h2>
+<h3>Methodology, tools and data sources</h3>
     <p align="justify">  The starting point of our research was the Polifonia corpus. Initially, we explored the MusicBo module, but we did not find any information about modern female artists or even about female artists in general. Therefore, we selected “Wikipedia” as a module and we got interesting results by typing some keywords, namely “album”, “women” and “female”. In particular, we had different occurrences for “female album” and this guided us to the decision of the final topic of our research: the best female music artists. 
 For our research we decided to use the DBpedia Sparql Endpoint to explore the knowledge graph provided by DBpedia. After defining all the standard prefixes, such as rdf, rdfs and all those required by DBpedia ontology, we started to query over the knowledge graph using SPARQL language and a significant number of operators that were useful to constraint the values that we wanted to retrieve. In particular, we used: FILTER regex, ORDER BY, COUNT, OPTIONAL, DISTINCT, BIND, MINUS, LIMIT and GROUP BY.
 Moreover, for the definition of the prefixes and for the construction of the queries we explored the knowledge graph to see, for instance, with what type of queries were we dealing with and whether we got a resource, or a property or a value. 
 Finally, we put all the queries used on Melody platform and created our web-ready story that is made of several graphics (table, doughnut chart, bar chart etc.). These help to drive the understanding of the audience of the topic's research, allowing all viewers to visualize all data and information that we retrieved in the exploration of the aforementioned knowledge graph.        
       </p>
 
-      <h2>The challenges</h2>
+      <h3>The challenges</h3>
 <p align="justify"> The first challenge we had to face was the display of the images on Melody, since we got the IRI of the resource from DBpedia but not the depiction itself. In the first place, we tried to change the property from dbo:thumbnail to foaf:depiction, but in this way, we could see the images but there were multiple for each resource. Therefore, we tried to get one picture of each resource by using the SAMPLE operator, but we still had some problems with duplicates. Eventually, we decided to use the dbo:thumbnail together with the operator BIND(REPLACE(str(A),””,) AS B), as suggested by the professor. Even though we managed to get the picture, we still had problems with one image, since it was not available on its DBpedia page anymore. For this reason, we decided to leave the picture out, using the MINUS operator, so as to have a more aesthetically pleasing table. 
 Then, another challenge we encountered was that, even if we used the operator DISTINCT, we got multiple results for each resource. So, to solve this problem, we used the operator GROUP BY. Moreover, we cannot have links that work on Melody, because we see only their strings and not the functioning links. Even though we added “Label” to the variable, we did not get the expected result. 
 In general, sometimes Melody was not working properly, so we had to stop and wait until it worked again or we tried several times to upload the changes before getting the result we wanted. 
@@ -244,12 +252,12 @@ In conclusion, despite all the challenges that we encountered, in the end we are
     <img src="concert.jpg" alt="Article Image" width="500" height="800"><br><br><br><br>
           </div>
     <div class="text-article">
-  <h1><span style="font-family:'Times New Roman', Times, serif; color:black">Unleashing the Spirit of Indie-Rock: A Tale of Blur and Sonic Youth</span></h1>
-   <h2>Methodology, tools and data sources</h2>
+  <h2><span style="font-family:'Times New Roman', Times, serif; color:black">Unleashing the Spirit of Indie-Rock: A Tale of Blur and Sonic Youth</span></h2>
+   <h3>Methodology, tools and data sources</h3>
     <p align="justify">The project initially started with the intention of utilizing the Polifonia module “Music Bo” to gather information. Upon realizing the limited information available through the Music Bo module, we decided to shift our focus to Wikipedia. This choice provided access to a wider range of data, thereby inspiring the project to proceed in a more fruitful direction. Subsequently, we initiated the process by collecting pertinent data from Wikidata, which served as the fundamental basis for our research and to extract relevant information related to the indie rock genre. Starting from a general point of view, we narrowed down our search to identify the most famous bands within the indie rock genre. To accomplish this, we scrutinized the queries that had been covered during our classes and began generating novel queries to address our inquiries. All the acquired data underwent a deep examination to detect noteworthy correlations and trends. Every time we formulated a new query, our aim was to execute it on MELODY platform, as to obtain a visual representation of our findings. The use of data visualization played a central role not just in presenting the project's discoveries but also in enabling us to examine deeper into comprehending the data. Consequently, MELODY facilitated our creation of tables, charts, and graphs, all aimed at showing the progression of indie rock music, particularly in the analysis of the musical contributions made by two iconic bands: Blur and Sonic Youth.
           </p>
       
-      <h2>The challenges</h2>
+      <h3>The challenges</h3>
             <p align="justify">During our project, we encountered several challenges. Initially, we were unable to find any information on Polifonia through MusicBo. This lack of data hindered our progress and limited our ability to gather relevant information. Furthermore, the data on Wikidata proved to be insufficient. Although our queries were accurate, we often received zero results due to the limited nature of the data.
 At first, we struggled to apply the information we learned during our lessons to a practical task. However, after persevering through multiple attempts, we were eventually able to successfully execute our queries. One specific instance involved our search for the award nominations of Sonic Youth. Our goal was to create a timeline using the data we found. Unfortunately, Wikidata did not provide the necessary information regarding the years of nomination, which was essential for building the timeline. As a result, we decided to utilize the same data to create a bar chart instead.
 It took us some time to become familiar with SPARQL queries and Melody, but we are pleased with the results of our data story Without a doubt, the utilization of MELODY was invaluable in discovering insights and crafting a captivating story that effectively represents the evolution of indie rock music and its unforgettable bands.
